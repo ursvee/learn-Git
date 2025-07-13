@@ -56,4 +56,4 @@ Give name as repository name
 Mush commit before push
 
 // Delete branch GitHub
-Must delete local, after thant delete on github
+Must delete local, after that delete on github
