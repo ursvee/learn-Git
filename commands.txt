@@ -1,0 +1,66 @@
+// Check version
+git --version
+
+// Config git everywhere
+git config --global user.name "name"
+git config --global user.email "email"
+// Checkout
+git config user.name
+git config user.email
+
+// Start repository
+git init
+
+// Check status
+git status
+
+// Staging custom files
+git add name
+// Staging all
+git add .      
+// Unstaging
+git rm --cached name
+
+// Commited
+git commit -m "Commit"
+
+// Check log
+git log
+// Log in oneline
+git log --oneline
+
+// Checkout
+git checkout commit_id
+// Latest commit
+git checkout master
+
+// Revert
+git revert commit_id
+
+// Reset
+git reset commit_id --hard
+
+// Check branches
+git branch -a
+// New branch
+git branch name
+// Go to branch
+git checkout name
+// Combine new & go
+git checkout -b name
+// Delete branch
+git branch -D name
+// Merge
+git merge branch_name
+
+// Remote
+git remote -v
+git remote add name repository
+
+// Push
+git push name branch
+// Delete branch GitHub
+git push origin --delete name
+
+// Clone
+git clone repository

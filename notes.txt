@@ -1,0 +1,59 @@
+Commit is also version
+Must have .git file(repository) in the root folder, so that .git files can track all changes.
+
+// Three steps of Commit
+Modified, Staging, Commited
+
+// Modified
+If any changes, it is modified.
+
+// Staging
+Let git knows modified files and stage what files to commit
+
+// Commited
+After staging files, finally commited.
+
+// Init
+U next to file name means modified.
+// Status
+If red, in modified.
+If green, in staging.
+A next to file name means staging.
+
+// Commit
+-m means message
+
+// Checkout
+Go back to commit_id without changes
+Can come back to latest commit
+
+// Revert
+Go back to commit_id
+Add new commit for revert and can go back
+
+// Reset
+Go back to commit_id
+Completely remove commits before commit_id
+
+// Branches
+Master branch must has stable(production) commit.
+Must go back to master to create & delete branch.
+All commits also include to switched branch.
+-a means all
+-b means branch
+-D means delete
+
+// Merge
+Must commit in branch before merge
+Must go back to master branch to merge
+Must commit after merge
+
+// Remote
+-v checks remote repository
+Give name as repository name
+
+// Push
+Mush commit before push
+
+// Delete branch GitHub
+Must delete local, after thant delete on github
